@@ -1,0 +1,25 @@
+{
+    "style": "ticks",
+    "palette": "gray",
+    "font": "Noto Sans JP",
+    "rc": {
+        "font.family": "Noto Sans JP",
+        "figure.dpi": 600,
+        "figure.figsize": [
+            6,
+            4
+        ],
+        "axes.spines.right": false,
+        "axes.spines.top": false,
+        "axes.linewidth": 0.8,
+        "axes.grid": true,
+        "grid.color": ".8",
+        "grid.linewidth": 0.2,
+        "axes.edgecolor": "black",
+        "axes.labelcolor": "black",
+        "xtick.color": "black",
+        "ytick.color": "black",
+        "text.color": "black",
+        "figure.constrained_layout.use": true
+    }
+}

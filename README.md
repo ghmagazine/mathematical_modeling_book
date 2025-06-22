@@ -20,12 +20,13 @@ Pythonのバージョンは3.12.9を利用しています。
 
 
 1. リポジトリのクローン
+
 ```bash
 git clone https://github.com/ghmagazine/mathematical_modeling_book.git
 cd mathematical_modeling_book
 ```
 
-2. 仮想環境の作成と有効化
+2. 仮想環境の作成と有効化（Mac/Linuxの場合）
 
 ```bash
 python -m venv .venv
@@ -33,11 +34,13 @@ source .venv/bin/activate
 ```
 
 3. 依存パッケージのインストール
+
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Jupyter labの起動
+
 ```bash
 jupyter lab
 ```

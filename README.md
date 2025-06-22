@@ -46,7 +46,7 @@ jupyter lab
 ### グラフの日本語フォント
 
 グラフの日本語フォントとしてNoto Sans Japaneseを指定しています。
-以下サイトからフォントをダウンロードして、インストールして下さい。
+必要に応じて、以下サイトからフォントをダウンロードして、インストールして下さい。
 https://fonts.google.com/noto/specimen/Noto+Sans+JP
 
 または、`setting/visualization.json`内のフォントを変更して下さい。

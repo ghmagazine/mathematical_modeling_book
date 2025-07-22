@@ -16,8 +16,36 @@ https://gihyo.jp/book/2025/978-4-297-14992-5
 
 ## 動作環境とセットアップ手順
 
-Pythonのバージョンは3.12.9を利用しています。
+### 方法1: uvを使用する場合
 
+Pythonのバージョンは 3.12 を利用しています。
+
+[uv](https://docs.astral.sh/uv/) は、2025年現在広く使われているPythonの仮想環境管理ツールです。以下の手順でセットアップを行います。
+
+[Installation | uv](https://docs.astral.sh/uv/getting-started/installation/)　に従って、uvをインストールして下さい。
+
+1. リポジトリのクローン
+
+```bash
+git clone https://github.com/ghmagazine/mathematical_modeling_book.git
+cd mathematical_modeling_book
+```
+
+2. uvで依存パッケージのインストールと仮想環境の作成
+
+```bash
+uv sync
+```
+
+3. Jupyter labの起動
+
+```bash
+uv run jupyter lab
+```
+
+### 方法2: 標準的なPythonを使用する場合
+
+Pythonのバージョンは3.12.9を利用しています。
 
 1. リポジトリのクローン
 
